@@ -1,0 +1,43 @@
+.services {
+    display: flex;
+    padding-top: 100px;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(180deg, #70783f, #6f7746);
+}
+
+.webImage {
+    width: 298px;
+    height: 193px;
+    padding-bottom: 80px;
+}
+
+.services p {
+    color: #f1f1f1;
+    font-size: 1.5em;
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+@media (min-width: 800px) {
+    .services p {
+        font-size: 2.5em;
+    }
+
+    .webImage {
+        width: 596px;
+        height: 386px;
+    }
+
+    .webImage {
+        border-radius: 10px;
+        /* Agrega bordes redondos */
+        transition: transform 0.3s ease;
+        /* Agrega una transición suave */
+    }
+
+    .webImage:hover {
+        transform: scale(1.05);
+        /* Aplica un aumento de escala al hacer hover */
+    }
+}

@@ -1,0 +1,34 @@
+.exchange-rates {
+    display: flex;
+    justify-content: space-between;
+}
+
+.exchange-rates-column {
+    width: 48%;
+}
+
+.exchange-rates-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: black;
+    /* Cambia el color del título a blanco */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+    color: white;
+    /* Cambia el color del texto a blanco */
+}
+
+th {
+    background-color: #a3a72a;
+    font-size: 20px;
+}
