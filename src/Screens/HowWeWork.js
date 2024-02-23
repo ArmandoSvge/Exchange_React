@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import styles from "./HowWeWork.module.css";
-import Step from "../Components/Step";
 import axios from "axios";
 
 const HowWeWork = () => {
